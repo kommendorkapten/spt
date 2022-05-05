@@ -9,4 +9,4 @@ flags:
 goos: linux
 goarch: amd64
 
-binary: foo-{{ .OS }}-{{ .Arch }}
+binary: foo-{{ .Os }}-{{ .Arch }}

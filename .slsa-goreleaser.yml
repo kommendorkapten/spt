@@ -10,3 +10,5 @@ goos: linux
 goarch: amd64
 
 binary: foo-{{ .Os }}-{{ .Arch }}
+
+main: ./cmd/foo

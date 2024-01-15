@@ -1,5 +1,5 @@
 package foo
 
 func Foo() string {
-	return "Foo version 1"
+	return "Foo version 2"
 }
